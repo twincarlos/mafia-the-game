@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <title>Mafia The Game</title>
+</head>
+<body>
+    <!-- --------------------------------------------------------- -->
+
+    <div class="home">
+        <h1>MAFIA</h1>
+        <p>Add up to 12 players, then press START.</p>
+        <div class="interact">
+            <input type="text" name="name">
+            <button type="submit" id="add">ADD</button>
+            <button type="submit" id="start">START</button>
+        </div>
+        <ol>
+
+        </ol>
+    </div>
+
+    <!-- --------------------------------------------------------- -->
+
+    <div class="roles">
+        <h1>ROLES</h1>
+        <p id="upcoming">You are next</p>
+        <p id="description">Reveal your role, then press NEXT</p>
+        <p id="player-role">This is your role</p>
+        <div class="interact">
+            <button type="submit" id="reveal">REVEAL</button>
+            <button type="submit" id="next">NEXT</button>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------- -->
+
+    <div class="night">
+        <p id="upcoming-night">You are next</p>
+        <p id="night-role">Select a player</h1>
+        <p id="clue">Choose wisely</p>
+        <div class="buttons">
+            <button type="submit" id=1></button>
+            <button type="submit" id=2></button>
+            <button type="submit" id=3></button>
+            <button type="submit" id=4></button>
+            <button type="submit" id=5></button>
+            <button type="submit" id=6></button>
+            <button type="submit" id=7></button>
+            <button type="submit" id=8></button>
+            <button type="submit" id=9></button>
+            <button type="submit" id=10></button>
+            <button type="submit" id=11></button>
+            <button type="submit" id=12></button>
+        </div>
+    </div>
+
+    <!-- --------------------------------------------------------- -->
+
+    <div class="day">
+        <h1>DAY</h1>
+        <h1 id="results">RESULTS</h1>
+        <button type="subtmit" id="vote">VOTE</button>
+    </div>
+
+    <!-- --------------------------------------------------------- -->
+
+    <script type="module" src="mafia.js"></script>
+</body>
+</html>

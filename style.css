@@ -1,0 +1,96 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: #424242;
+}
+
+h1 {
+    color: #FFB2FF;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: #FFB2FF;
+    text-align: center;
+}
+
+.interact {
+    display: flex;
+    justify-content: center;
+}
+
+ol {
+    color: aquamarine;
+    display: table;
+    margin: 10px auto;
+}
+
+/* ********************************************** */
+
+.roles {
+    visibility: hidden;
+}
+
+#upcoming, #upcoming-night {
+    height: 25px;
+    color: #8110BC;
+    background-color: #deb887;
+}
+
+#player-role {
+    visibility: hidden;
+    font-size: 40px;
+    color: white;
+    background-color: #CD1044;
+}
+
+/* ********************************************** */
+
+.night {
+    height: 400px;
+    visibility: hidden;
+}
+
+div.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+div.buttons button {
+    font-size: 30px;
+    padding: 20px;
+    width: auto;
+    height: 120px;
+    border: solid black 1px;
+    margin: 5px;
+}
+
+#night-role {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#clue {
+    color: black;
+    background-color: #BEF9FF;
+    text-decoration: wavy;
+    font-size: 25px;
+    height: 35px;
+}
+
+/* ********************************************** */
+
+.day {
+    visibility: hidden;
+}
+
+#vote {
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    height: 60px;
+}
